@@ -1,1 +1,1 @@
-jawaban
+bingung ngumpulinya
