@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+</head>
+<style>
+body{
+    background-color: #fafafa;
+}
+table{
+    width: 100%;
+    height: auto;
+}
+
+input[type=text]{
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+  [type=date]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+
+  textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    resize: none;
+  }
+
+  select {
+    width: 30%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
+
+  .button {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .button:hover{
+      background-color: #fb8c00;
+  }
+
+    tr td{
+        padding: 5px 20px;
+  }
+
+    #r1{
+        display: inline-block;
+        background-color: #1abc9c;
+        border-radius: 50px;
+    }
+    #r2{
+        display: inline-block;
+        background-color: #2ecc71;
+        border-radius: 50px;
+    }
+    #r3{
+        display: inline-block;
+        background-color: #e67e22;
+        border-radius: 50px;
+    }
+    #r4{
+        display: inline-block;
+        background-color: #9b59b6;
+        border-radius: 50px;
+    }
+    #r5{
+        display: inline-block;
+        background-color: #f39c12;
+        border-radius: 50px;
+    }
+
+    #c1{
+        display: inline-block;
+        background-color: #c0392b;
+        border-radius: 50px;
+    }
+    #c2{
+        display: inline-block;
+        background-color: #ff7675;
+        border-radius: 50px;
+    }
+    #c3{
+        display: inline-block;
+        background-color: #e84393;
+        border-radius: 50px;
+    }
+    #c4{
+        display: inline-block;
+        background-color: #81ecec;
+        border-radius: 50px;
+    }
+    #c5{
+        display: inline-block;
+        background-color: #1abc9c;
+        border-radius: 50px;
+    }
+</style>
+<body>
+    <form action="">
+        <table id="table">
+            
+                <tr>
+                    <td>Nama Lengkap</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+            
+                <tr>
+                    <td>Tempat Lahir</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="bekasi">Bekasi</option>
+                            <option value="jakarta">Jakarta</option>
+                            <option value="sumatra">Sumatra</option>
+                            <option value="kalimantan">Kalimantan</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Tanggal Lahir</td>
+                </tr>
+                <tr>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+            
+                <tr>
+                    <td>No. Hp</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="" id=""></td>
+                </tr>
+            
+                <tr>
+                    <td>Alamat</td>
+                </tr>
+                <tr>
+                    <td><textarea name="alamat"></textarea></td>
+                </tr>
+            
+                <tr>
+                    <td>Pendidikan Terakhir</td>
+                </tr>
+                <tr>
+                    <td>
+                        <select>
+                            <option value="SD">SD</option>
+                            <option value="SMP">SMP</option>
+                            <option value="SMA">SMA/SMK</option>
+                            <option value="KULIAH">KULIAH</option>
+                        </select>
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Agama</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="agama" value="islam"><label id="r1">islam</label><br>
+                        <input type="radio" name="agama" value="kristen"><label id="r2">kristen</label><br>
+                        <input type="radio" name="agama" value="hindu"><label id="r3">hindu</label><br>
+                        <input type="radio" name="agama" value="budha"><label id="r4">budha</label><br>
+                        <input type="radio" name="agama" value="khongucu"><label id="r5">khongucu</label><br> 
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td>Hobi</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Hobi" value="renang"><label id="c1">renang</label><br>
+                        <input type="checkbox" name="Hobi" value="mancing"><label id="c2">mancing</label><br>
+                        <input type="checkbox" name="Hobi" value="ngegibah"><label id="c3">ngegibah</label><br>
+                        <input type="checkbox" name="Hobi" value="ngegame"><label id="c4">ngegame</label><br>
+                        <input type="checkbox" name="Hobi" value="ngoding"><label id="c5">ngoding</label><br>
+                    </td>
+                </tr>
+            
+            <tr><td><input class="button" type="submit"> <input class="button" type="reset"></td></tr>
+        </table>
+    </form>
+    
+</body>
+</html>
