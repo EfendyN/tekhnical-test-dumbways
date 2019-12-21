@@ -1,0 +1,1 @@
+SELECT customers.email, COUNT(*) FROM customers INNER JOIN orders ON customers.customers_id=orders.customers_id WHERE orders.order_placed_date>='1 Januari 2019' AND orders.order_placed_date<='31 Desember 2019' ORDER BY COUNT(*) DESC;
