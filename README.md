@@ -1,1 +1,1 @@
-bingung ngumpulinya
+tasks test pelatihan dumbways
